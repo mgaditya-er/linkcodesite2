@@ -1,0 +1,264 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #727E8C;
+}
+a {
+	color: #3a434e;
+}
+.bg-primary {
+	background-color: #0093DD !important;
+}
+.btn {
+	border: 2px solid transparent;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.btn-sm {
+	font-size: 11px;
+}
+.display-4 {
+	font-weight: 700;
+}
+.btn:hover {
+	border: 2px solid transparent;
+}
+.btn-primary {
+	background-color: #f49653 !important;
+	color: #fff;
+}
+.btn-primary:hover {
+	background-color: #e57423 !important;
+	color: #fff;
+}
+.card {
+	border: 0;
+}
+.card-title {
+	border-bottom: 1px dashed #ddd;
+	padding-bottom: 20px;
+}
+.btn-lg {
+	font-size: 13px;
+	font-weight: 500;
+	color: #727E8C;
+	padding: 12px 30px;
+	letter-spacing: 1px;
+}
+.display-5 {
+	font-size: 46px;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	color: #0093DD !important
+}
+.top-links a {
+	color: #fff;
+}
+.bg-tri {
+	background: #555 url(../img/form-bg.jpg) no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+.testimonial-bg {
+	background: #0093DD url(../img/testimonial-bg.png) repeat center top;
+}
+.service-bg {
+	background: #555 url(../img/prosite-pest-control%20.jpg) no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: rgba(255,255,255,.9);
+}
+.main-footer {
+	background-color: #333;
+	color: #ddd;
+}
+.info-box {
+	border: 1px solid rgba(255,255,255,0.1);
+	margin-bottom: 20px;
+}
+.footer-logo {
+	padding-bottom: 15px;
+}
+.footer-links ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 30px;
+	padding-top: 15px;
+	padding-left: 24px;
+	list-style-position: inside;
+	padding-top: 20px;
+}
+.footer-links ul li {
+	padding-bottom: 5px;
+}
+.footer-links ul li:before {
+	content: '\2192';
+	position: absolute;
+	left: 15px;
+}
+.footer-links ul li a {
+	color: #ddd;
+}
+.icon-box {
+	padding: 20px;
+	font-size: 25px;
+}
+.info-text {
+	border-left: 1px solid rgba(255,255,255,0.1);
+	padding: 15px;
+	color: #FFF;
+}
+ul.social-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	margin-top: 30px;
+}
+ul.social-list li {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+}
+ul.social-list li a {
+	display: flex;
+	width: 40px;
+	height: 40px;
+	color: #ddd;
+	background-color: #666;
+	border-radius: 40px;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+ul.social-list li a:hover{
+	background-color: #999;
+}
+ul.social-list li a i {
+	padding-left: 12px;
+	padding-top: 12px;
+}
+.main-footer p {
+	color: #ddd;
+}
+.carousel-caption2 {
+	position: absolute;
+	background-color: #FFF;
+	-webkit-border-top-right-radius: 33px;
+	-webkit-border-bottom-left-radius: 33px;
+	-moz-border-radius-topright: 33px;
+	-moz-border-radius-bottomleft: 33px;
+	border-top-right-radius: 33px;
+	border-bottom-left-radius: 33px;
+	padding: 40px;
+	color: #e57423;
+	top: 13%;
+	left: 18%;
+	z-index: 999;
+}
+.carousel-caption2 h5 {
+	font-size: 66px;
+	line-height: 66px !important;
+}
+.carousel-caption2 P {
+	font-size: 28px;
+	font-weight: 300;
+}
+.mm {
+	position: relative;
+}
+.mm2 {
+	position: absolute;
+	right: 10%;
+	top: -124px;
+	z-index: 22;
+}
+.mm2 img {
+	width: 420px;
+	height: auto;
+}
+.icon-image {
+	width: 90px;
+	height: 90px;
+	padding: 10px;
+	border-radius: 110px;
+	margin-right: 20px;
+}
+.icon-image img {
+	width: 70px;
+	height: auto;
+}
+a.rr2 {
+	text-decoration: underline;
+	color: #0093DD;
+}
+a.rr2:hover {
+	color: #9e8a67;
+	text-decoration: none;
+}
+.work {
+	padding: 20px 10px;
+}
+.work h3 {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 18px;
+}
+.work h6 {
+	font-size: 9px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	color: #999;
+}
+.work p {
+	font-size: 16px;
+	font-weight: 500;
+}
+.work p a {
+	text-decoration: underline;
+	color: #0093DD;
+	transition: all 0.3s ease;
+}
+.work p a:hover {
+	color: #9e8a67;
+	text-decoration: none;
+}
+.work img {
+}
+.geo {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+}
+.contact-bg {
+	background-image: url(../img/dgwork-contact.jpg);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+}
+.dd {
+	width: 170px;
+	margin: 0 auto;
+}
+.footer-logo img {
+	width: 300px;
+	height: auto;
+}
+label {
+	font-size: 14px;
+	font-weight: 500;
+}
+.vv {
+	transition: all 0.3s ease;
+}
+@media screen and (max-width: 992px) {
+.mobile-bg {
+	background-color: #e6760c;
+}
+}
